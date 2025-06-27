@@ -1,0 +1,98 @@
+*
+.img-effect {
+  border-radius: 12px;         /* Bordes redondeados */
+  transition: transform 0.3s;  /* Animación suave */
+}
+
+.img-effect:hover {
+  transform: scale(1.05);      /* Se agranda un poco al pasar el mouse */
+}
+.menu a {
+  border-radius: 12px;         /* Bordes redondeados */
+  transition: transform 0.3s;  /* Animación suave al pasar el mouse */
+}
+
+.menu a:hover {
+  transform: scale(1.05);      /* Expande ligeramente el botón */
+}
+body {
+  background-image: url('fondoanimado.gif');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+{
+    margin: 0px;
+    padding: 5px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#h1{
+    color:rgb(245, 245, 241);
+    font-family: Verdana;
+    font-weight: bold;
+    font-size: 40px;
+}
+/AQUI SALEN MIS BOTONES/
+nav{
+    width: 200px;
+    border: 0px solid rgb(155, 22, 73);
+}
+
+.menu{
+    list-style: none;
+    padding: 0;
+    margin:0;
+    color: rgb(219, 57, 106);
+}
+
+.menu li{
+    margin-bottom: 1px;
+}
+
+.menu a{
+    color: white;
+    background-color: #b9205a;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+}
+
+.menu a:hover{
+    background-color: #e96aaa;
+}
+
+footer{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    align-items: middle;
+}
+
+/BOTONES PARA CUANDO MANDE A OTRO HTML/
+/* Nav Boton Regresar*/
+.regresar{
+    list-style: none;
+    padding: 0;
+    margin:0;
+}
+.letras{
+    text-align: center;
+}
+.regresar li{
+    margin-bottom: 1px;
+}
+
+.regresar a{
+    color: white;
+    background-color: #b9205a;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+}
+
+.regresar a:hover{
+background-color: #e96aaa;
+}
